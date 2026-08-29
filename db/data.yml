@@ -1,0 +1,26 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2026-08-28 18:49:49.392322000 Z
+    - 2026-08-28 18:49:49.392332000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Excited for Fall 2026
+    - 2026-08-28 19:11:24.989651000 Z
+    - 2026-08-28 19:11:24.989651000 Z
