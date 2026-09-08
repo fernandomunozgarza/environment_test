@@ -26,6 +26,8 @@
 
   	"env": { 
 
+
+
     	"RAILS_ENV": "review", 
 
     	"DISABLE_DATABASE_ENVIRONMENT_CHECK": "1" 
@@ -56,7 +58,9 @@
 
 "NODE_ENV": "production", 
 
-"YARN_PRODUCTION": "true" 
+"YARN_PRODUCTION": "true",
+
+"RAILS_ENV": "production"
 
   }
 
