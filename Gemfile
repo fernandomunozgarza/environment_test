@@ -62,6 +62,10 @@ group :test do
   gem "selenium-webdriver"
 end
 
+group :development, :test do
+  gem 'rspec-rails'
+end
+
 # Add gem to manage db
 gem 'yaml_db'
 
