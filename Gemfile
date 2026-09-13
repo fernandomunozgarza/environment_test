@@ -64,3 +64,6 @@ end
 
 # Add gem to manage db
 gem 'yaml_db'
+
+# add seeddump
+gem 'seed_dump' 

@@ -1,2 +1,2 @@
-release: rails db:migrate
+release: rails db:migrate && rails db:seed
 web: bundle exec rails server -p ${PORT:-5000}
