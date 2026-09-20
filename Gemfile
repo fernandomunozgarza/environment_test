@@ -63,6 +63,7 @@ group :test do
 end
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'rspec-rails'
 end
 
@@ -71,3 +72,13 @@ gem 'yaml_db'
 
 # add seeddump
 gem 'seed_dump' 
+
+#install devise and oauth
+
+gem 'devise', '~>4.9' 
+
+gem "omniauth", "~> 2.1" 
+
+gem "omniauth-rails_csrf_protection", "~> 1.0" 
+
+gem "omniauth-google-oauth2", "~> 1.1"
