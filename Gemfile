@@ -75,7 +75,7 @@ gem 'seed_dump'
 
 #install devise and oauth
 
-gem 'devise', '~>4.9' 
+gem 'devise', '~>5.0' 
 
 gem "omniauth", "~> 2.1" 
 
